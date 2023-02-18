@@ -1,0 +1,24 @@
+[user]
+	name = Konstantin Surikov
+	email = 19418260+surikov-k@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = /Users/sk/.gitignore_global
+	pager = less -RFX
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Users/sk/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[log]
+  date = relative
+[format]
+  # pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
+	pretty = format:%C(auto,yellow)%h %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(14,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D
+
