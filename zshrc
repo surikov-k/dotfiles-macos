@@ -2,6 +2,9 @@ echo 'Hello from .zchrc 😸'
 
 # Set variables
 
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # Change ZSH Options
 
 # Create Aliases
@@ -14,13 +17,17 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
+# Add Visual Studio Code (code)
+export PATH="/$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Funcitons
 function mkcd() {
-  mkdir -p "$@" &&  cd "$_"
+  mkdir -p "$@" && cd "$_"
 }
 
 # Use ZSH Plugins
+
+#
 
 # –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 #setopt no_nomatch
