@@ -1,4 +1,4 @@
-# brew bundle dump --force
+# brew bundle dump --force --describe
 
 # Taps
 tap "homebrew/bundle"
