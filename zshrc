@@ -10,6 +10,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Create Aliases
 alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
 
 #Customize Prompts(s)
 #PROMPT='
@@ -130,3 +132,4 @@ source $ZSH/oh-my-zsh.sh
 # export PNPM_HOME="/Users/sk/Library/pnpm"
 # export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+alias ls='exa -laFh --git'
