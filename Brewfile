@@ -22,3 +22,4 @@ cask "phpstorm"
 cask "docker"
 
 mas "Tick Tick", id: 966085870
+mas "Unclutter", id: 577085396
