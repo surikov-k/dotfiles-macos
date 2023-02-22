@@ -1,4 +1,5 @@
 # brew bundle dump --force --describe
+#
 
 # Taps
 tap "homebrew/bundle"
@@ -9,11 +10,14 @@ tap "homebrew/core"
 brew "bat"
 brew "httpie"
 brew "exa"
+brew "git"
+brew "mas"
 
 # Casks (Applications)
 cask "alfred"
 cask "google-chrom"
 cask "visual-studio-code"
 cask "dropbox"
-cask "ticktick"
 cask "phpstorm"
+
+mas "Tick Tick", id: 966085870
