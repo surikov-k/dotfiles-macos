@@ -19,5 +19,6 @@ cask "google-chrom"
 cask "visual-studio-code"
 cask "dropbox"
 cask "phpstorm"
+cask "docker"
 
 mas "Tick Tick", id: 966085870
