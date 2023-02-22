@@ -1,1 +1,6 @@
 Brewfile.lock.json
+
+# For now, these were already installed
+config/gh/
+config/git/
+config/iterm2/
