@@ -21,6 +21,8 @@ brew "nvm"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Application launcher and productivity software
 cask "alfred"
 # App to build and share containerized applications and microservices
@@ -35,6 +37,7 @@ mas "Cloud Mail.Ru", id: 893068358
 mas "DaisyDisk", id: 411643860
 mas "Disk Speed Test", id: 425264550
 mas "DjVuReader", id: 492931203
+mas "hide.me VPN", id: 953040671
 mas "Kindle", id: 405399194
 mas "LilyView", id: 529490330
 mas "MediaInfo", id: 510620098
