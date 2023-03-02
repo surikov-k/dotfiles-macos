@@ -6,7 +6,7 @@ echo 'Hello from .zchrc 😸'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
-
+export LS_COLORS="$(vivid generate one-dark)"
 # Change ZSH Options
 
 # Create Aliases
