@@ -10,11 +10,12 @@ export NULLCMD=bat
 # Change ZSH Options
 
 # Create Aliases
-alias ls='exa -laFh --git'
-alias ll="ls -laFhG"
+alias ls="exa -laFh --git"
 alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias gst='git status'
+alias gaa='git add .'
 
 # setup git information
 autoload -Uz vcs_info
