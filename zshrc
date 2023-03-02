@@ -35,7 +35,7 @@ zstyle ':vcs_info:*' enable git
 # PROMPT='
 # %F{green}%1~%f >#'
 PROMPT='
-%(?.%F{green}➞.%F{red}➞)  %F{blue}%1~%f ${vcs_info_msg_0_}'
+%(?.%F{green}➞.🤮)  %B%F{blue}%1~%f%b ${vcs_info_msg_0_}'
 # RPROMPT='%(?..%F{red}(%?%) %f)%n@%m %*'
 RPROMPT='%(?..%F{red}(%?%) %f)'
 
@@ -51,5 +51,3 @@ function mkcd() {
 # Use ZSH Plugins
 
 #
-
-
