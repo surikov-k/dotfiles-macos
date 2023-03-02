@@ -17,6 +17,8 @@ brew "less"
 brew "mas"
 # Manage multiple Node.js versions
 brew "nvm"
+# Generator for LS_COLORS with support for multiple color themes
+brew "vivid"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
