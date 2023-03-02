@@ -16,11 +16,27 @@ alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 
-#Customize Prompts(s)
-#PROMPT='
-# %1~ %L %#
+# setup git information
+autoload -Uz vcs_info
+precmd_functions+=(vcs_info)
+setopt prompt_subst
+# %b: branch
+# %u: unstaged changes
+zstyle ':vcs_info:git:*' formats '%F{blue}<%F{red}%b%f%F{blue}> %F{yellow}%u %f'
+# this makes %u work, but also the prompt is clearly slower in git dirs when this is on
+zstyle ':vcs_info:*' check-for-changes true
+# what string to use for %u when there are unstaged changes
+zstyle ':vcs_info:*' unstagedstr '✕'
+# vcs_info supports multiple version control systems, but I need just git
+zstyle ':vcs_info:*' enable git
 
-# RPROMPT='%*'
+#Customize Prompts(s)
+# PROMPT='
+# %F{green}%1~%f >#'
+PROMPT='
+%(?.%F{green}➞.%F{red}➞)  %F{blue}%1~%f ${vcs_info_msg_0_}'
+# RPROMPT='%(?..%F{red}(%?%) %f)%n@%m %*'
+RPROMPT='%(?..%F{red}(%?%) %f)'
 
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
