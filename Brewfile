@@ -15,6 +15,8 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Manage multiple Node.js versions
 brew "nvm"
 # Generator for LS_COLORS with support for multiple color themes
