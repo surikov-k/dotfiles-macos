@@ -41,10 +41,14 @@ PROMPT='
 # RPROMPT='%(?..%F{red}(%?%) %f)%n@%m %*'
 RPROMPT='%(?..%F{red}(%?%) %f)'
 
-# Add Locations to $PATH Variable
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$N_PREFIX/bin"
+# Add Locations to $path Array
+typeset -U path
+
+path=(
+  "$N_PREFIX/bin"
+  $path
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # Write Handy Funcitons
 function mkcd() {
