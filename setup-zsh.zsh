@@ -9,7 +9,7 @@ else
   echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 fi
 
-if ["$SHELL" = '/usr/local/bin/zsh']; then
+if [ "$SHELL" = '/usr/local/bin/zsh' ]; then
   echo '$SHELL is already /usr/local/bin/zsh'
 else
   echo "Enter user password to change login shell"
