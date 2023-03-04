@@ -14,3 +14,12 @@ else
   echo "Installing Node & NPM with n"
   n lts
 fi
+
+#install Global NPM Packages
+npm install --global typescript
+npm install --global json-server
+npm install --global http-server
+npm install --global gulp-cli
+
+echo "Global NPM Packgages Istalled:"
+npm list --global --depth=0
