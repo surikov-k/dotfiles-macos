@@ -20,6 +20,7 @@ npm install --global typescript
 npm install --global json-server
 npm install --global http-server
 npm install --global gulp-cli
+npm install --global nx
 
 echo "Global NPM Packgages Istalled:"
 npm list --global --depth=0
