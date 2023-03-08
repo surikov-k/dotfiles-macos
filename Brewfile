@@ -19,6 +19,8 @@ brew "mas"
 brew "n"
 # Manage multiple Node.js versions
 brew "nvm"
+# Zsh prompt for Astronauts
+brew "spaceship"
 # Generator for LS_COLORS with support for multiple color themes
 brew "vivid"
 # Internet file retriever
