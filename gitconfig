@@ -9,6 +9,7 @@
 [core]
 	excludesfile = /Users/sk/.gitignore_global
 	pager = less -RFX
+	editor = nano -w
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
