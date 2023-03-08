@@ -5,6 +5,8 @@ tap "homebrew/core"
 brew "bat"
 # Modern replacement for 'ls'
 brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -17,8 +19,12 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
 # Manage multiple Node.js versions
 brew "nvm"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Zsh prompt for Astronauts
 brew "spaceship"
 # Generator for LS_COLORS with support for multiple color themes
