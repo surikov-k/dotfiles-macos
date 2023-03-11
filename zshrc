@@ -19,20 +19,6 @@ alias trail='<<<${(F)path}'
 alias gst='git status'
 alias gaa='git add .'
 
-# setup git information
-autoload -Uz vcs_info
-precmd_functions+=(vcs_info)
-setopt prompt_subst
-# %b: branch
-# %u: unstaged changes
-zstyle ':vcs_info:git:*' formats '%F{blue}<%F{red}%b%f%F{blue}> %F{yellow}%u %f'
-# this makes %u work, but also the prompt is clearly slower in git dirs when this is on
-zstyle ':vcs_info:*' check-for-changes true
-# what string to use for %u when there are unstaged changes
-zstyle ':vcs_info:*' unstagedstr '✕'
-# vcs_info supports multiple version control systems, but I need just git
-zstyle ':vcs_info:*' enable git
-
 #Customize Prompts(s)
 
 # Add Locations to $path Array
@@ -50,8 +36,6 @@ function mkcd() {
 }
 
 # Use ZSH Plugins
-
-#
 
 # Spaceship prompt
 source /usr/local/opt/spaceship/spaceship.zsh
