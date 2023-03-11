@@ -35,6 +35,8 @@ brew "wget"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Application launcher and productivity software
 cask "alfred"
 # App to build and share containerized applications and microservices

@@ -83,3 +83,6 @@ function mkcd() {
 
 # Spaceship prompt
 source /usr/local/opt/spaceship/spaceship.zsh
+
+# zsh syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
