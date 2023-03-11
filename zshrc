@@ -1,9 +1,5 @@
 echo 'Hello from .zchrc 😸'
 
-# Autocompletion
-autoload -Uz compinit
-compinit
-
 # Set variables
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -62,3 +58,6 @@ source /usr/local/opt/spaceship/spaceship.zsh
 
 # zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# zsh-autosuggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
