@@ -21,6 +21,8 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Improved Nano Syntax Highlighting Files
+brew "nanorc"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
 # Manage multiple Node.js versions
