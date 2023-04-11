@@ -46,3 +46,4 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern root line)
 
 # zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#555555"
