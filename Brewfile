@@ -19,6 +19,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
 # Manage multiple Node.js versions
@@ -29,6 +31,8 @@ brew "ripgrep"
 brew "spaceship"
 # Generator for LS_COLORS with support for multiple color themes
 brew "vivid"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
