@@ -21,5 +21,5 @@
   date = relative
 [format]
   # pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
-	pretty = format:%C(auto,yellow)%h %C(auto,blue)%>(12,trunc)%ad %C(auto,green)%<(14,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D
+	pretty = format:%C(auto,yellow)%h %C(auto,blue)%ad %C(auto,green)%an: %C(auto,reset)%s%C(auto,red)% gD% D
 
