@@ -23,3 +23,5 @@
   # pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
 	pretty = format:%C(auto,yellow)%h %C(auto,blue)%ad %C(auto,green)%an: %C(auto,reset)%s%C(auto,red)% gD% D
 
+[init]
+	defaultBranch = main
