@@ -59,6 +59,8 @@ cask "iterm2"
 cask "qlmobi"
 # Open-source code editor
 cask "visual-studio-code"
+# Input method helper
+cask "youtype"
 mas "Adblock Plus", id: 1432731683
 mas "Be Focused Pro", id: 961632517
 mas "Boop", id: 1518425043
@@ -70,14 +72,18 @@ mas "DjVuReader", id: 492931203
 mas "hide.me VPN", id: 953040671
 mas "Kindle", id: 405399194
 mas "LilyView", id: 529490330
+mas "Magnet", id: 441258766
 mas "MediaInfo", id: 510620098
 mas "Moom", id: 419330170
 mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
 mas "Numi", id: 484388250
 mas "Pages", id: 409201541
+mas "PCalc", id: 403504866
 mas "PopClip", id: 445189367
+mas "Speedtest", id: 1153157709
 mas "The Unarchiver", id: 425424353
+mas "TickTick", id: 966085870
 mas "Toggl Track", id: 1291898086
 mas "Transmit", id: 403388562
 mas "Twitter", id: 409789998
@@ -85,6 +91,7 @@ mas "Unclutter", id: 577085396
 mas "Vpnify", id: 1503251395
 mas "WebMoney Keeper", id: 807337125
 mas "WhatsApp", id: 1147396723
+mas "Yandex.Disk", id: 560459030
 vscode "aaron-bond.better-comments"
 vscode "akamud.vscode-theme-onedark"
 vscode "alefragnani.project-manager"
