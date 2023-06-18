@@ -47,6 +47,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Application launcher and productivity software
 cask "alfred"
+# Audio utility
+cask "background-music"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
