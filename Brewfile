@@ -53,6 +53,8 @@ cask "background-music"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Free and open-source media player
+cask "iina"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Quick Look plugin for Kindle ebook formats
