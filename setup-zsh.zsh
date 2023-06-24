@@ -2,18 +2,18 @@
 
 echo "\n <<< Starting ZSH Setup 📟 >>>\n"
 
-if grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
-  echo '/usr/local/bin/zsh already exists in /etc/shells'
+if grep -Fxq '/opt/homebrew/bin/zsh' '/etc/shells'; then
+  echo '/opt/homebrew/bin/zsh already exists in /etc/shells'
 else
   # echo "Enter superuser (sudo) password to edit /etc/shells"
-  echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
+  echo '/opt/homebrew/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
 fi
 
-if [ "$SHELL" = '/usr/local/bin/zsh' ]; then
-  echo '$SHELL is already /usr/local/bin/zsh'
+if [ "$SHELL" = '/opt/homebrew/bin/zsh' ]; then
+  echo '$SHELL is already /opt/homebrew/bin/zsh'
 else
   echo "Enter user password to change login shell"
-  chsh -s '/usr/local/bin/zsh'
+  chsh -s '/opt/homebrew/bin/zsh'
 fi
 
 if sh --version | grep -q zsh; then
@@ -24,5 +24,5 @@ else
   sudo ln -sfv /bin/zsh /private/var/select/sh
 
   # I'd like for this to work instead.
-  # sudo ln -sfv /usr/local/bin/zsh /private/var/select/sh
+  # sudo ln -sfv /opt/homebrew/bin/zsh /private/var/select/sh
 fi

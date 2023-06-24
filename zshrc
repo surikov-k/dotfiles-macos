@@ -38,12 +38,12 @@ function mkcd() {
 # Use ZSH Plugins
 
 # Spaceship prompt
-source /usr/local/opt/spaceship/spaceship.zsh
+source /opt/homebrew/Cellar/spaceship/4.14.0/spaceship.zsh
 
 # zsh syntax highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern root line)
 
 # zsh-autosuggestions
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#555555"
